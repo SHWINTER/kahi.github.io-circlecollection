@@ -1,0 +1,79 @@
+.noto-sans-jp-<uniquifier> {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #545454;
+	font-family: "Noto Sans JP", sans-serif;
+}
+
+#container {
+	background: #fff; 
+	margin: 0;
+	min-height: 300px;
+	padding: 0;
+}
+
+#heading {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 16px;
+	margin: 0px;
+	background: #c3f0fe;
+	padding: 1px;
+}
+
+#title {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 16px;
+	margin: 0px 30px;
+}
+
+.button ul {
+	list-style: none;
+}
+
+.button li {
+	display: inline-block;
+}
+
+.language a {
+	color: #fff;
+	text-decoration: none;
+	background: #6596d9;
+	padding: 15px 25px;
+	text-align: center;
+	border-radius: 10px;
+	clear: both;
+	display: block;
+	font-size: 24px; 
+	font-weight: 600;
+	width: 300px;
+	margin: 30px;
+}
+
+.language a:hover {
+	background: #aec0d9;
+	color: black;
+}
+
+.foot {
+	background: #545454;
+	color: white;
+	padding: 30px;
+	margin: 10px 0 0 0;
+}
+
+.end {
+	background: #545454;
+	text-align: center;
+	color: white;
+	margin: 1px 0 0 0;
+	padding: 1px 0 0 0;
+}
